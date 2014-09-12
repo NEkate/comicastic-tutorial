@@ -1,0 +1,102 @@
+@import "reset.css";
+/*Наборы видов шрифта*/
+@import url("../fonts/komika-text/stylesheet.css") screen;
+@import url("../fonts/komika-title/stylesheet.css") screen;
+
+body{
+    background: #000000 url('../img/bg-body.jpg') no-repeat;
+    font-family: 'KomikaTextTightRegular', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#page{
+    margin: 0 auto;
+    width: 960px;
+}
+
+#header{
+    width: 960px;
+    float: left;
+}
+
+#logo{
+    padding-left: 70px;
+    padding-top: 32px;
+}
+
+#header-content{
+    float: right;
+    width: 440px;
+    height: 105px;
+}
+#search{
+    text-align: right;
+    padding-top: 10px;
+}
+#search input{
+    vertical-align: middle;
+}
+#search .search-input{
+    width: 160px;
+    margin-right: 10px;
+    padding: 6px 10px;
+
+    color: #f2aa00;
+    font-size: 14px;
+    background-color: #280000;
+    border: 1px solid #7c0000;
+
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -moz-border-radius: 3px;
+}
+#main-navigation{
+    float: right;
+    margin-top: -18px;
+    margin-right: 20px;
+}
+#main-navigation li{
+    display: inline;
+    width: 120px;
+}
+#main-navigation li a{
+    display: block;
+    float: left;
+    padding: 7px 20px 8px 20px;
+    margin-left: 5px;
+    color: #ffffff;
+    font-size: 18px;
+
+    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
+    -webkit-border-top-right-radius: 3px;
+    -khtml-border-radius-topright: 3px;
+    -moz-border-radius-topright: 3px;
+    border-top-right-radius: 3px;
+}
+
+#main-navigation li a:hover{
+    background: url('../img/bg-main-navigation.png') no-repeat left;
+}
+#main-navigation li a.selected{
+    background: url('../img/bg-main-navigation.png') no-repeat left;
+}
+
+#content{
+    width: 960px;
+    float: left;
+}
+
+#top-banner{
+    float: left;
+    width: 960px;
+    height: 250px;
+    background: url('../img/bg-banner.png') no-repeat;
+}
+#footer{
+    width: 960px;
+    height: 303px;
+    float: left;
+    background: url('../img/bg-footer.jpg') no-repeat;
+
+}
