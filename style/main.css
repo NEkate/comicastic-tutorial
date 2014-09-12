@@ -118,6 +118,59 @@ body{
     height: 250px;
     background: url('../img/bg-banner.png') no-repeat;
 }
+
+.post{
+    float: left;
+    width: 445px;
+    height: 230px;
+}
+.post .post-image{
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #ffb800;
+    margin: 10px 0 0 10px;
+}
+.post h2{
+    position: relative;
+    top: -75px;
+    left: 0;
+    width: 300px;
+
+    padding: 5px 5px 5px 10px;
+    margin-left: 10px;
+
+    font-size: 18px;
+    color: #680000;
+    background-color: #f2aa00;
+}
+.post h2 a{
+    color: #680000;
+}
+.post h2 a:hover{
+    color: #ffffff;
+}
+.post .metadata{
+    position: relative;
+    top: -75px;
+    left: 0;
+    width: 250px;
+
+    padding:  5px 5px 5px 10px;
+    margin-left: 10px;
+
+    font-size: 13px;
+
+    background-color: #ffffff;
+    border: 1px solid #ffb800;
+
+}
+.post .metadata a{
+    color: #000000;
+}
+.post .metadata a:hover{
+    color: #9c0000;
+}
 #footer{
     width: 960px;
     height: 303px;
