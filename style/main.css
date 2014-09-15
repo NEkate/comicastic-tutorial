@@ -1,5 +1,6 @@
 @import "reset.css";
 @import "footer.css";
+@import "footer-marks.css";
 /*Наборы видов шрифта*/
 @import url("../fonts/komika-text/stylesheet.css") screen;
 @import url("../fonts/komika-title/stylesheet.css") screen;

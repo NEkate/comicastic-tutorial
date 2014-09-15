@@ -1,0 +1,62 @@
+#tabs {
+    ul {
+        background: none;
+        width: 428px;
+        min-height: 30px;
+        height: 30px;
+
+        border: 0;
+        padding: 0;
+        margin: 0;
+
+        -webkit-border-radius: 0;
+        border-radius: 0;
+
+        li {
+            display: inline;
+            float: left;
+            text-align: left;
+
+            a {
+                display: block;
+                margin: 0;
+                padding: 0;
+
+                color: #5a5a5a;
+
+                font-size: 14px;
+                padding: 0 20px 10px 10px;
+            }
+
+            a:hover {
+                background: none;
+                color: #f2aa00;
+            }
+        }
+
+        .active  {
+            background: url('../img/tab-arrow.png') bottom center no-repeat;
+
+            a {
+                color: #f2aa00;
+            }
+        }
+
+    }
+
+    .tab {
+        width: 405px;
+        padding: 20px 10px;
+        min-height: 162px;
+        margin-top: -6px;
+
+        background-color: rgba(26, 26, 26, .5);
+        border: 1px solid #252525;
+
+        -webkit-border-radius: 5px;
+        border-radius: 5px;
+
+
+
+    }
+}
