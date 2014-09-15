@@ -1,42 +1,46 @@
 @import "reset.css";
+@import "footer.css";
 /*Наборы видов шрифта*/
 @import url("../fonts/komika-text/stylesheet.css") screen;
 @import url("../fonts/komika-title/stylesheet.css") screen;
 
-body{
+body {
     background: #000000 url('../img/bg-body.jpg') no-repeat;
     font-family: 'KomikaTextTightRegular', Arial, Helvetica, sans-serif;
     font-size: 1em;
 }
 
-#page{
+#page {
     margin: 0 auto;
     width: 960px;
 }
 
-#header{
+#header {
     width: 960px;
     float: left;
 }
 
-#logo{
+#logo {
     padding-left: 70px;
     padding-top: 32px;
 }
 
-#header-content{
+#header-content {
     float: right;
     width: 440px;
     height: 105px;
 }
-#search{
+
+#search {
     text-align: right;
     padding-top: 10px;
 }
-#search input{
+
+#search input {
     vertical-align: middle;
 }
-#search .search-input{
+
+#search .search-input {
     width: 160px;
     margin-right: 10px;
     padding: 6px 10px;
@@ -51,26 +55,30 @@ body{
     -o-border-radius: 3px;
     -moz-border-radius: 3px;
 }
-#social-media{
-    padding-top:15px;
-    text-align:right;
-    color:#FFF;
-    font-size:15px;
 
-    vertical-align:middle;
+#social-media {
+    padding-top: 15px;
+    text-align: right;
+    color: #FFF;
+    font-size: 15px;
 
-    text-shadow:2px 2px 2px rgba(0,0,0,.5);
+    vertical-align: middle;
+
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
 }
-#main-navigation{
+
+#main-navigation {
     float: right;
     margin-top: -18px;
     margin-right: 20px;
 }
-#main-navigation li{
+
+#main-navigation li {
     display: inline;
     width: 120px;
 }
-#main-navigation li a{
+
+#main-navigation li a {
     display: block;
     float: left;
     padding: 7px 20px 8px 20px;
@@ -78,60 +86,66 @@ body{
     color: #ffffff;
     font-size: 18px;
 
-    text-shadow: 2px 2px 2px rgba(0,0,0,.5);
-    -webkit-border-top-right-radius: 3px;
-    -khtml-border-radius-topright: 3px;
-    -moz-border-radius-topright: 3px;
-    border-top-right-radius: 3px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
 }
 
-#main-navigation li a:hover{
-    background: url('../img/bg-main-navigation.png') no-repeat left;
-}
-#main-navigation li a.selected{
+#main-navigation li a:hover {
     background: url('../img/bg-main-navigation.png') no-repeat left;
 }
 
-#content{
+#main-navigation li a.selected {
+    background: url('../img/bg-main-navigation.png') no-repeat left;
+}
+
+#content {
     width: 960px;
     float: left;
 }
-#content-wrapper{
+
+#content-wrapper {
     float: left;
     width: 910px;
     padding: 10px 40px 0 10px;
 }
-#page-content{
+
+#page-content {
     float: left;
     width: 100%;
-    height: 350px;
     background: #ffffff url('../img/content-page-curl.jpg') no-repeat bottom right;
     -webkit-border-radius: 5px;
     -khtml-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+    margin-bottom: 20px;
 }
 
-#top-banner{
+#top-banner {
     float: left;
     width: 960px;
     height: 250px;
     background: url('../img/bg-banner.png') no-repeat;
 }
 
-.post{
+.post {
     float: left;
-    width: 445px;
+    width: 425px;
     height: 230px;
+    margin: 10px 10px;
 }
-.post .post-image{
+
+.post .post-image {
     position: relative;
     top: 0;
     left: 0;
     border: 1px solid #ffb800;
-    margin: 10px 0 0 10px;
+
 }
-.post h2{
+
+.post h2 {
     position: relative;
     top: -75px;
     left: 0;
@@ -144,19 +158,22 @@ body{
     color: #680000;
     background-color: #f2aa00;
 }
-.post h2 a{
+
+.post h2 a {
     color: #680000;
 }
-.post h2 a:hover{
+
+.post h2 a:hover {
     color: #ffffff;
 }
-.post .metadata{
+
+.post .metadata {
     position: relative;
     top: -75px;
     left: 0;
     width: 250px;
 
-    padding:  5px 5px 5px 10px;
+    padding: 5px 5px 5px 10px;
     margin-left: 10px;
 
     font-size: 13px;
@@ -165,14 +182,16 @@ body{
     border: 1px solid #ffb800;
 
 }
-.post .metadata a{
+
+.post .metadata a {
     color: #000000;
 }
-.post .metadata a:hover{
+
+.post .metadata a:hover {
     color: #9c0000;
 }
 
-.post .post-content{
+.post .post-content {
     position: relative;
     top: -275px;
     left: 240px;
@@ -182,7 +201,7 @@ body{
     background: url('../img/bg-post-content.png') no-repeat top left;
 }
 
-.post .post-content .post-brief{
+.post .post-content .post-brief {
     width: 150px;
     height: 98px;
     overflow: hidden;
@@ -191,7 +210,7 @@ body{
     color: #ffffff;
 }
 
-.post .post-info{
+.post .post-info {
     width: 150px;
     margin: 8px 0 0 35px;
     padding-top: 4px;
@@ -204,34 +223,30 @@ body{
     color: #787878;
 }
 
-.post .post-info a{
+.post .post-info a {
     color: #787878;
 }
-.post .post-info a:hover{
+
+.post .post-info a:hover {
     color: #d8d8d8;
 }
 
-.post .post-comments{
+.post .post-comments {
     width: 50px;
     margin: 37px 0 0 56px;
     text-align: center;
 }
-.post .post-comments a{
+
+.post .post-comments a {
     color: inherit;
 }
-.post .post-comments .number{
+
+.post .post-comments .number {
     font-size: 14px;
     color: #ffffff;
 }
-.post .post-comments .comments{
+
+.post .post-comments .comments {
     font-size: 12px;
     color: #f2aa00;
-}
-
-#footer{
-    width: 960px;
-    height: 303px;
-    float: left;
-    background: url('../img/bg-footer.jpg') no-repeat;
-
 }
