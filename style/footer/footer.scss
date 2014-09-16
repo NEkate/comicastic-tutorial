@@ -1,0 +1,80 @@
+@import "footer-marks";
+
+#footer {
+    width: 940px;
+    height: 250px;
+    float: left;
+    background: url('../img/bg-footer.jpg') no-repeat top center;
+
+    padding: 20px 10px 0 0;
+}
+
+#sidebar {
+    float: left;
+    width: 940px;
+}
+
+.widget {
+    float: left;
+    margin: 0 10px;
+
+    h3 {
+        color: #f2aa00;
+        font-size: 14px;
+        font-weight: bold;
+        text-transform: uppercase;
+        padding: 0 0 10px 10px;
+    }
+
+    .footer-widget {
+        height: 162px;
+        padding: 20px 10px;
+
+        background-color: rgba(26, 26, 26, .5);
+        border: 1px solid #252525;
+
+        @include border-radius(5px);
+        &.small {
+            width: 200px;
+            a {
+                padding-left: 20px;
+                &:hover {
+                    background: url('../img/arrow.png') no-repeat 0 4px;
+                }
+            }
+        }
+        &.large {
+            width: 414px;
+            height: 172px;
+            padding-top: 10px;
+            top: -10px;
+        }
+
+        li {
+            font-size: 15px;
+            padding-bottom: 3px;
+            color: #FFFFFF;
+
+            a {
+                color: #FFFFFF;
+
+            }
+            a:hover {
+                margin-top: 5px;
+            }
+            &.active {
+                display: block;
+            }
+            &.hide {
+                display: none;
+            }
+        }
+    }
+
+    .corner {
+        background: url('../img/widget-curl.jpg') bottom right no-repeat;
+        height: 30px;
+        margin: -30px -2px 0 0;
+    }
+
+}

@@ -1,0 +1,43 @@
+@import "marks-content";
+@import "../mixin";
+
+#tabs {
+    .tabs-menu {
+        background: none;
+        width: 428px;
+        height: 24px;
+
+        border: 0;
+        padding: 0;
+        margin: 0;
+
+
+        li {
+            display: inline;
+            float: left;
+
+            a {
+                display: block;
+
+                color: #5a5a5a;
+
+                font-size: 14px;
+                text-transform: uppercase;
+                padding: 0 20px 10px 10px;
+            }
+
+            a:hover {
+                background: none;
+                color: #f2aa00;
+            }
+
+            &.active  {
+                background: url('../img/tab-arrow.png') bottom center no-repeat;
+
+                a {
+                    color: #f2aa00;
+                }
+            }
+        }
+    }
+}

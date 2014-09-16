@@ -1,0 +1,29 @@
+@import "../mixin";
+@import "post";
+
+#content {
+    width: 960px;
+    float: left;
+}
+
+#content-wrapper {
+    float: left;
+    width: 910px;
+    padding: 10px 40px 0 10px;
+}
+
+#page-content {
+    float: left;
+    width: 100%;
+    background: #ffffff url('../img/content-page-curl.jpg') no-repeat bottom right;
+    @include border-radius(5px);
+    margin-bottom: 20px;
+}
+
+#top-banner {
+    float: left;
+    width: 960px;
+    height: 250px;
+    background: url('../img/bg-banner.png') no-repeat;
+}
+

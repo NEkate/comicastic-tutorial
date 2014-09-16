@@ -1,0 +1,52 @@
+@import "../mixin";
+
+.tab {
+    .item {
+        float: left;
+        padding: 5px 10px;
+        @include border-radius(7px);
+
+        h4 {
+            padding-bottom: 3px;
+            color: #FFFFFF;
+            font-size: 14px;
+            text-transform: uppercas;
+            a {
+                color: #FFFFFF;
+                &:hover {
+                    color: #f2aa00;
+                }
+            }
+        }
+        &:hover {
+            background: #000000;
+            h4 a {
+                font-weight: bold;
+                color: #f2aa00;
+            }
+        }
+
+        p {
+            color: #909090;
+            font-size: 15px;
+        }
+    }
+}
+
+.pager {
+    float: right;
+    text-align: right;
+    padding-right: 40px;
+
+    a {
+        color: #4a4848;
+        padding-left: 5px;
+        &:hover {
+            color: #f2aa00;
+        }
+
+        &.active {
+            color: #d11300;
+        }
+    }
+}

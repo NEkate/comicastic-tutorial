@@ -1,0 +1,102 @@
+.post {
+  float: left;
+  width: 425px;
+  height: 230px;
+  margin: 10px 10px; }
+  .post .post-image {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: 1px solid #ffb800; }
+  .post h2 {
+    position: relative;
+    top: -75px;
+    left: 0;
+    width: 300px;
+    padding: 5px 5px 5px 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #680000;
+    background-color: #f2aa00; }
+    .post h2 a {
+      color: #680000; }
+      .post h2 a:hover {
+        color: #ffffff; }
+  .post .metadata {
+    position: relative;
+    top: -75px;
+    left: 0;
+    width: 250px;
+    padding: 5px 5px 5px 10px;
+    margin-left: 10px;
+    font-size: 13px;
+    background-color: #ffffff;
+    border: 1px solid #ffb800; }
+    .post .metadata a {
+      color: #000000; }
+      .post .metadata a:hover {
+        color: #9c0000; }
+  .post .post-content {
+    position: relative;
+    top: -275px;
+    left: 240px;
+    width: 210px;
+    height: 220px;
+    background: url('../../img/bg-post-content.png') no-repeat top left; }
+    .post .post-content .post-brief {
+      width: 150px;
+      height: 98px;
+      overflow: hidden;
+      padding: 15px 0 0 35px;
+      text-align: right;
+      color: #ffffff; }
+  .post .post-info {
+    width: 150px;
+    margin: 8px 0 0 35px;
+    padding-top: 4px;
+    text-align: right;
+    border-top: 1px solid #787878;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 10px;
+    color: #787878; }
+    .post .post-info a {
+      color: #787878; }
+    .post .post-info:hover {
+      color: #d8d8d8; }
+  .post .post-comments {
+    width: 50px;
+    margin: 37px 0 0 56px;
+    text-align: center; }
+    .post .post-comments a {
+      color: inherit; }
+    .post .post-comments .number {
+      font-size: 14px;
+      color: #ffffff; }
+    .post .post-comments .comments {
+      font-size: 12px;
+      color: #f2aa00; }
+
+#content {
+  width: 960px;
+  float: left; }
+
+#content-wrapper {
+  float: left;
+  width: 910px;
+  padding: 10px 40px 0 10px; }
+
+#page-content {
+  float: left;
+  width: 100%;
+  background: #ffffff url('../../img/content-page-curl.jpg') no-repeat bottom right;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 20px; }
+
+#top-banner {
+  float: left;
+  width: 960px;
+  height: 250px;
+  background: url('../../img/bg-banner.png') no-repeat; }

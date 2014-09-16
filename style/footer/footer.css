@@ -1,0 +1,81 @@
+@import url(marcs-content.css);
+#tabs .tabs-menu {
+  background: none;
+  width: 428px;
+  min-height: 30px;
+  height: 30px;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0; }
+  #tabs .tabs-menu li {
+    display: inline;
+    float: left; }
+    #tabs .tabs-menu li a {
+      display: block;
+      color: #5a5a5a;
+      font-size: 14px;
+      padding: 0 20px 10px 10px; }
+    #tabs .tabs-menu li a:hover {
+      background: none;
+      color: #f2aa00; }
+    #tabs .tabs-menu li.active {
+      background: url('../../img/tab-arrow.png') bottom center no-repeat; }
+      #tabs .tabs-menu li.active a {
+        color: #f2aa00; }
+#tabs .tab {
+  width: 405px;
+  padding: 10px;
+  min-height: 162px;
+  margin-top: -6px;
+  background-color: rgba(26, 26, 26, 0.5);
+  border: 1px solid #252525;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  border-radius: 5px;
+  display: none; }
+  #tabs .tab.active {
+    display: block; }
+
+#footer {
+  width: 940px;
+  height: 250px;
+  float: left;
+  background: url('../../img/bg-footer.jpg') no-repeat top center;
+  padding: 20px 10px 0 0; }
+
+#sidebar {
+  float: left;
+  width: 940px; }
+
+.widget {
+  float: left;
+  margin: 0 10px; }
+  .widget h3 {
+    color: #f2aa00;
+    font-size: 14px;
+    padding: 0 0 10px 10px; }
+  .widget .footer-widget {
+    width: 200px;
+    min-height: 162px;
+    padding: 20px 10px;
+    background-color: rgba(26, 26, 26, 0.5);
+    border: 1px solid #252525;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+    .widget .footer-widget li {
+      font-size: 15px;
+      padding-bottom: 3px;
+      color: #FFFFFF; }
+      .widget .footer-widget li a {
+        padding-left: 20px;
+        color: #FFFFFF; }
+      .widget .footer-widget li a:hover {
+        color: #CD0000;
+        background: url('../../img/arrow.png') no-repeat; }
+  .widget .corner {
+    background: url('../../img/widget-curl.jpg') bottom right no-repeat;
+    height: 30px;
+    margin: -30px -2px 0 0; }

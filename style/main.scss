@@ -1,0 +1,22 @@
+@import "reset.css";
+@import "head/head";
+@import "content/content";
+@import "footer/footer";
+/*Наборы видов шрифта*/
+@import "../fonts/komika-text/stylesheet.css";
+@import "../fonts/komika-title/stylesheet.css";
+
+body {
+    background: #000000 url('../img/bg-body.jpg') no-repeat center top;
+    font-family: 'KomikaTextTightRegular', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#page {
+    margin: 0 auto;
+    width: 960px;
+}
+
+
+
+

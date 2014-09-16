@@ -1,13 +1,12 @@
-$(document).ready(function(){
-    $('#tabs div').hide();
-    $('#tabs div:first').show();
-    $('#tabs ul li:first').addClass('active');
-    $('#tabs ul li a').click(function(){
-        $('#tabs ul li').removeClass('active');
-        $(this).parent().addClass('active');
-        var currentTab = $(this).attr('href');
-        $('#tabs div').hide();
-        $(currentTab).show();
-        return false;
+jQuery(function($){
+    var tabs = $('#tabs .tab'),
+        lis = $('#tabs ul li');
+
+    lis.find('a').click(function(e){
+        e.preventDefault();
+        lis.removeClass('active').addClass('hide');
+        $(this).parent().removeClass('hide').addClass('active');
+        tabs.removeClass('active');
+        $(this.getAttribute('href')).removeClass('hide').addClass('active');
     });
 });
