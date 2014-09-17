@@ -1,0 +1,34 @@
+#footer-content{
+    float: left;
+    width: 940px;
+    height:45px;
+    padding: 10px;
+    margin-top: 10px;
+    background: url('../img/bg-footer-line.jpg') no-repeat top center;
+
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 10px;
+    color: #515151;
+}
+
+#footer-nav {
+    li {
+        display: inline;
+        &:last-child a {
+            border-right: none;
+        }
+        a {
+            color: #515151;
+            padding-right: 5px;
+            border-right: 1px solid #292929;
+            &:hover {
+                color: #f2aa00;
+            }
+        }
+    }
+}
+
+#copyright{
+    float: right;
+    padding-right: 30px;
+}
