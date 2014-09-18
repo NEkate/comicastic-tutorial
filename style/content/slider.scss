@@ -1,0 +1,77 @@
+#container {
+    margin: 0 auto;
+    position: relative;
+    width: 830px;
+    margin-bottom: 2em;
+    padding-left: 65px;
+    text-align: left;
+}
+#content {
+    position: relative;
+}
+#slider {
+    position: relative;
+    width: 830px;
+    overflow: hidden;
+
+    li {
+        width: 830px;
+        height: 250px;
+        overflow: hidden;
+
+        img {
+            border: 1px solid #FFFFFF;
+            height: 248px;
+        }
+    }
+}
+#prevBtn,
+#nextBtn {
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    width: 65px;
+    height: 40px;
+    left: -65px;
+    top: 185px;
+    text-indent: 65px;
+
+    a {
+        display: block;
+        width: 65px;
+        height: 40px;
+        background: url("../img/btn-prev.png") no-repeat 0 0;
+    }
+}
+#nextBtn {
+    left: 630px;
+    a {
+        background: url("../img/btn-next.png") no-repeat 0 0;
+    }
+}
+
+.bubble {
+    position: absolute;
+    float: right;
+
+    width: 295px;
+    height: 210px;
+    margin: -255px 0 0 535px;
+    background-image: url("../img/bg-bubble.png");
+
+    color: #FFFFFF;
+}
+#top-banner {
+    float: left;
+    width: 830px;
+    height: 250px;
+    padding: 10px 0 0 130px;
+    background: url("../img/bg-banner.jpg") no-repeat center top;
+}
+
+.banner_container {
+    width: 860px;
+    height: 250px;
+
+    position: relative;
+}
