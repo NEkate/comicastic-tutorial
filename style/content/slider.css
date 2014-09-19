@@ -1,0 +1,107 @@
+.featured_post .post_title {
+  height: 29px;
+  width: 247px;
+  padding-top: 18px;
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #680000; }
+  .featured_post .post_title a:hover {
+    color: #FFFFFF; }
+.featured_post .post_brief {
+  height: 67px;
+  width: 237px;
+  padding-left: 30px;
+  overflow: hidden;
+  text-align: right;
+  color: #1b1b1b; }
+.featured_post .post_info {
+  margin: 5px 0 0 30px;
+  text-align: right;
+  padding-top: 2px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 10px;
+  color: #969696;
+  border-top: 1px solid #ffc000;
+  width: 237px; }
+  .featured_post .post_info a:hover {
+    color: #1b1b1b; }
+.featured_post .post_comments {
+  text-align: center;
+  float: right;
+  margin: 15px 43px 0 0;
+  width: 65px;
+  height: 40px; }
+  .featured_post .post_comments a {
+    color: inherit; }
+  .featured_post .post_comments .number {
+    font-size: 24px;
+    color: #FFFFFF; }
+  .featured_post .post_comments .comments {
+    font-size: 14px;
+    color: #f2aa00; }
+
+#container {
+  margin: 0 auto;
+  position: relative;
+  width: 830px;
+  margin-bottom: 2em;
+  padding-left: 65px;
+  text-align: left; }
+
+#content {
+  position: relative; }
+
+#slider {
+  position: relative;
+  width: 830px;
+  overflow: hidden; }
+  #slider li {
+    width: 830px;
+    height: 250px;
+    overflow: hidden; }
+    #slider li img {
+      border: 1px solid #FFFFFF;
+      height: 248px; }
+
+#prevBtn, #nextBtn {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  width: 65px;
+  height: 40px;
+  left: -65px;
+  top: 185px;
+  text-indent: 65px; }
+  #prevBtn a, #nextBtn a {
+    display: block;
+    width: 65px;
+    height: 40px;
+    background: url("../img/btn-prev.png") no-repeat 0 0; }
+
+#nextBtn {
+  left: 630px; }
+  #nextBtn a {
+    background: url("../img/btn-next.png") no-repeat 0 0; }
+
+.bubble {
+  position: absolute;
+  float: right;
+  width: 295px;
+  height: 210px;
+  margin: -255px 0 0 535px;
+  background-image: url("../img/bg-bubble.png");
+  color: #FFFFFF; }
+
+#top-banner {
+  float: left;
+  width: 830px;
+  height: 250px;
+  padding: 10px 0 0 130px;
+  background: url("../img/bg-banner.jpg") no-repeat center top; }
+
+.banner_container {
+  width: 860px;
+  height: 250px;
+  position: relative; }

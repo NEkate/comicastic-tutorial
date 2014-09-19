@@ -1,0 +1,43 @@
+.featured_post .post_title {
+  height: 29px;
+  width: 247px;
+  padding-top: 18px;
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #680000; }
+  .featured_post .post_title a:hover {
+    color: #FFFFFF; }
+.featured_post .post_brief {
+  height: 67px;
+  width: 237px;
+  padding-left: 30px;
+  overflow: hidden;
+  text-align: right;
+  color: #1b1b1b; }
+.featured_post .post_info {
+  margin: 5px 0 0 30px;
+  text-align: right;
+  padding-top: 2px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 10px;
+  color: #969696;
+  border-top: 1px solid #ffc000;
+  width: 237px; }
+  .featured_post .post_info a:hover {
+    color: #1b1b1b; }
+.featured_post .post_comments {
+  text-align: center;
+  float: right;
+  margin: 15px 43px 0 0;
+  width: 65px;
+  height: 40px; }
+  .featured_post .post_comments a {
+    color: inherit; }
+  .featured_post .post_comments .number {
+    font-size: 24px;
+    color: #FFFFFF; }
+  .featured_post .post_comments .comments {
+    font-size: 14px;
+    color: #f2aa00; }
